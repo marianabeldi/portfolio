@@ -1,14 +1,19 @@
 ---
-title: "Leniolabs Brand and Website Redesign"
-description: Describing ourselves isn't an easy task. Identity is a constant evolution and not an easy question to answer. We know that the way we present our organization today will change sooner or later.
-subtitle: Redefining our new identity
-date: 2021-12-02
-image: /assets/portfolio/blog-lenio-01.jpg
+title: Leniolabs Brand and Website Redesign
+description: Describing ourselves isn't an easy task. Identity is a constant
+  evolution and not an easy question to answer. We know that the way we present
+  our organization today will change sooner or later.
 type: case-study
-category: 
-- branding
-- case-study
-- english
+date: 2021-12-02
+tags:
+  - featured
+imageAlt: screens of website redesign
+subtitle: Redefining our new identity
+image: /assets/portfolio/blog-lenio-01.jpg
+category:
+  - branding
+  - case-study
+  - english
 ---
 
 Three years after [redesigning our brand and site](https://www.holasvg.com/posts/leniolabs-brand-and-website-redesign), we decided it was time for a change.
