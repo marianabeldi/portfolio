@@ -4,6 +4,7 @@ description: Someone recently asked me how I approach debugging inline SVGs. Bec
 date: 2023-02-23
 canonicalUrl: https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/
 image: /assets/portfolio/blog-6fails-01.jpg
+imageAlt: ""
 type: article
 category: 
 - svg

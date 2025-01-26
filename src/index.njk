@@ -7,8 +7,7 @@ layout: 'base.njk'
   <h1>Mariana Beldi.</h1>
   <h2>Designer. Illustrator. Developer.</h2>
 </header>
-    <main>
-      
+<main class="pattern border-top">      
 <section class="hero">
   <div class="container flow">
       <div>
@@ -43,8 +42,8 @@ layout: 'base.njk'
   <div class="container flow">
     <h2 class="section-title text-center ">Featured projects</h2>
     <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
-    <ul role="list" class="articles__list flow">
-            {%- for post in collections.featured | reverse -%}
+    <ul role="list" class="cards-wrapper">
+      {%- for post in collections.featured | reverse -%}
         {% include "article-card.njk" %}
       {%- endfor -%}
     </ul>

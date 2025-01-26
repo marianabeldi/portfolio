@@ -3,6 +3,7 @@ title: "CSS Scroll-Driven Animations: Scrolleando con estilo"
 description: Luego de 5 años de trabajo (y 10 desde la primera propuesta), los navegadores modernos comenzaron a implementar las animaciones de scroll con CSS. En este taller interactivo veremos cómo usar Scroll Progress Timeline y View Progress Timeline para crear efectos visuales dinámicos sin JavaScript.
 date: 2024-09-27
 image: /assets/portfolio/nerdearla-workshop-2024.png
+imageAlt: Cover of Nerdearla workshop 2024
 type: workshop
 category: 
 - css

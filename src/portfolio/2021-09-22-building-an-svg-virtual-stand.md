@@ -5,6 +5,8 @@ subtitle: A responsive illustrated website with CSS Grid.
 date: 2021-09-22
 image: /assets/portfolio/blog-virtual-stand-01.jpg
 type: case-study
+tags:
+  - featured
 category: 
 - branding
 - svg

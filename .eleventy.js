@@ -18,6 +18,15 @@ module.exports = function(eleventyConfig) {
       return text;
     });
 
+    // syntax highlight
+    const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
+    module.exports = function (eleventyConfig) {
+      eleventyConfig.addPlugin(syntaxHighlight);
+    };
+
+    
+
   return {
     dir: {
       input: "src",

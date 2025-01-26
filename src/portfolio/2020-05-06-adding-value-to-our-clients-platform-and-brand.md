@@ -5,6 +5,8 @@ subtitle: How to make a brand thrive along with the site
 date: 2020-05-06
 image: /assets/portfolio/blog-adding-value-02.jpg
 type: case-study
+tags:
+  - featured
 category: 
 - branding
 - svg

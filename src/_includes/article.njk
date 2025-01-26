@@ -2,18 +2,15 @@
 layout: 'base.njk'
 ---
 
-<main>
+<header class="section container">
+  <h1 class="article-title">{{ title }}</h1>
+</header>
+      <figure class="main-article__figure">
+        <img src="{{ image }}" alt="{{ imageAlt }}">
+      </figure>
+<main class="pattern border-top">
   <article class="main-article">
     <div class="container container--narrow flow">
-      <h1 class="article-title">
-        {{ title }}
-      </h1>
-      <figure class="main-article__figure">
-        <img src="{{ image }}" alt="T{{ imageAlt }}">
-        <figcaption>
-          {{ imageAlt }}
-        </figcaption>
-      </figure>
       {{ content | safe }}
     </div>
   </article>
