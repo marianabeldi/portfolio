@@ -6,70 +6,85 @@ layout: 'base.njk'
   <h1>CV.2025.</h1>
 </header>
 <main class="pattern border-top">
-    <section class="experience">
-      <h3>Experience</h3>
+    <section class="container experience">
+      <h2>Experience</h2>
       <ul class="timeline">
+      {% for item in cv.items %}
         <li>
-          <h4>Leniolabs LLC  •  <span class="date">May 2016 - Present</span>  <span class="years">[ 8.9 years ]</span></h4>
-          <p>UI/UX Developer, Product Designer, Head of Branding</p>
+          <h3>{{ item.role }}</h3>
+          <p>{{ item.place }} • <span class="date">{{ item.date }}</span> <span class="years">[ {{ item.years }} ]</span></p>
         </li>
-        <li>
-          <h4>Leniolabs LLC • <span class="date">May 2016 - Present</span>  <span class="years">[ 8.9 years ]</span></h4>
-          <p>UI/UX Developer, Product Designer, Head of Branding</p>
-        </li>
-        <li>
-          <h4>Leniolabs LLC - <span class="date">May 2016 - Present</span>  <span class="years">[ 8.9 years ]</span></h4>
-          <p>UI/UX Developer, Product Designer, Head of Branding</p>
-        </li>
-        <li>
-          <h4>Leniolabs LLC - <span class="date">May 2016 - Present</span>  <span class="years">[ 8.9 years ]</span></h4>
-          <p>UI/UX Developer, Product Designer, Head of Branding</p>
-        </li>
-        <li>
-          <h4>Leniolabs LLC - <span class="date">May 2016 - Present</span>  <span class="years">[ 8.9 years ]</span></h4>
-          <p>UI/UX Developer, Product Designer, Head of Branding</p>
-        </li>
+      {% endfor %}
       </ul>
     </section>
-    <section class="experience">
+    <section class="container experience">
       <h3>Education</h3>
       <ul class="timeline">
         <li>
-          <h4>2021</h4>
-          <p>Postgraduate degree on Branding</p>
-          <p>Universidad de Buenos Aires</p>
+          <h3>Postgraduate degree on Branding</h3>
+          <p>Universidad de Buenos Aires • 2021</p>
         </li>
         <li>
-          <h4>2021</h4>
-          <p>Postgraduate degree on Branding</p>
-          <p>Universidad de Buenos Aires</p>
+          <h4>Graphic Designer</h4>
+          <p>Universidad de Buenos Aires • 2021</p>
+        </li>
+        <li>
+          <h4>Bachelor of Visual Arts</h4>
+          <p>Universidad Nacional de las Artes • 2011 [unfinished]</p>
+        </li>
+        <li>
+          <h4>Advertising - Art Direction</h4>
+          <p>Escuela Superior de Creativos Publicitarios • 2005</p>
         </li>
       </ul>
     </section>
 
-    <section class="skills">
+    <section class="container skills">
       <h3>Skills</h3>
       <div class="flex-container">
         <span class="skill">Design</span>
-        <span class="skill">Design</span>
-        <span class="skill">Design</span>
-        <span class="skill">Design</span>
-        <span class="skill">Design</span>
+        <span class="skill">UI</span>
+        <span class="skill">UX</span>
+        <span class="skill">Design System</span>
+        <span class="skill">Product Strategy</span>
+        <span class="skill">Branding</span>
+        <span class="skill">Illustration</span>
+        <span class="skill">Animation</span>
+        <span class="skill">Open-source</span>
+        <span class="skill">CSS</span>
+        <span class="skill">HTML</span>
+        <span class="skill">SVG</span>
+        <span class="skill">Javascript</span>
+        <span class="skill">Accessibility</span>
+        <span class="skill">Performance</span>
+        <span class="skill">Web graphics</span>
+        <span class="skill">Progressive enhancement</span>
+        <span class="skill">Git</span>
+        <span class="skill">Writing</span>
+        <span class="skill">Workshops</span>
       </div>
     </section>
 
-    <section class="tools">
+    <section class="container tools">
       <h3>Tools</h3>
       <div class="flex-container">
         <span class="tool">Figma</span>
-        <span class="tool">Git</span>
+        <span class="tool">Sketch</span>
+        <span class="tool">Adobe CC</span>
+        <span class="tool">Jira</span>
+        <span class="tool">Confluence</span>
         <span class="tool">Visual Studio Code</span>
-        <span class="tool">Design</span>
-        <span class="tool">Design</span>
+        <span class="tool">Miro</span>
+        <span class="tool">GitHub</span>
+        <span class="tool">Bitbucket</span>
+        <span class="tool">GSAP</span>
+        <span class="tool">Lottie</span>
+        <span class="tool">Semrush</span>
+        <span class="tool">Hotjar</span>
       </div>
     </section>
 
-    <section class="languages">
+    <section class="container languages">
       <h3>Languages</h3>
       <div class="flex-container">
         <div class="flex-item">
