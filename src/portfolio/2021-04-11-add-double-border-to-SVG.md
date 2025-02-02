@@ -1,15 +1,14 @@
 ---
 title: "How to Add a Double Border to SVG Shapes"
-description:  I’ll explore the possibilities of three different basic shapes. Pointing the ones that can keep a transparent color in the middle of the two lines.
-subtitle: Exploring 7 different ways with CSS and SVG syntax.
+description:  "I’ll explore the possibilities of three different basic shapes. Pointing the ones that can keep a transparent color in the middle of the two lines.
+subtitle: Exploring 7 different ways with CSS and SVG syntax."
 date: 2021-04-11
 canonicalUrl: https://css-tricks.com/how-to-add-a-double-border-to-svg-shapes/
 image: /assets/portfolio/blog-double-border-01.png
 type: article
 category: 
 - svg
-- tutorial
-- english
+- community
 ---
 
 Let’s say someone asks you to add a double border to some random geometric SVG shapes. For some reason, you can’t use any graphic editor — they need to be generated at runtime — so you have to solve it with CSS or within the SVG syntax.

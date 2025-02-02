@@ -7,7 +7,6 @@ date: 2019-08-20
 type: work
 category: 
 - illustration
-- character design
 - branding
 ---
 

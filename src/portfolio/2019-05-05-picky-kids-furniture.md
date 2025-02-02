@@ -8,7 +8,6 @@ type: work
 category: 
 - illustration
 - branding
-- art direction
 ---
 
 <ul class="tags">

@@ -7,8 +7,8 @@ date: 2021-01-31
 type: work
 category: 
 - svg
-- art
 - ui
+- open-source
 ---
 
 <ul class="tags">

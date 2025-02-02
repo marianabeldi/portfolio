@@ -8,8 +8,7 @@ canonicalUrl: https://css-tricks.com/going-beyond-automatic-svg-compression-with
 type: article
 category: 
 - svg 
-- tutorial
-- english
+- community
 ---
 
 <div class="separator" aria-hidden="true">***</div>

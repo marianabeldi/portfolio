@@ -1,6 +1,6 @@
 ---
 title: "How to Simplify SVG Code Using Basic Shapes"
-description: There are different ways to work with icons, but the best solutions always include SVG, either inline or linked up as a file.
+description: "There are different ways to work with icons, but the best solutions always include SVG, either inline or linked up as a file."
 subtitle: DIY SVG Icons
 date: 2020-09-29
 canonicalUrl: https://css-tricks.com/how-to-simplify-svg-code-using-basic-shapes/
@@ -8,8 +8,7 @@ image: /assets/portfolio/blog-DIY-svg-01.png
 type: article
 category: 
 - svg
-- tutorial
-- english
+- open-source
 ---
 
 > *Read the Chinese version [here](https://leetcode-cn.com/circle/discuss/SuKP3m/). Translated by Rotten orange 腐烂的橘子*

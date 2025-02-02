@@ -8,7 +8,6 @@ date: 2019-06-02
 type: work
 category: 
 - illustration
-- graphic design
 - print design
 ---
 

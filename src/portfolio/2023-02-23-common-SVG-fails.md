@@ -1,6 +1,6 @@
 ---
 title: "6 common SVG fails and how to fix them"
-description: Someone recently asked me how I approach debugging inline SVGs. Because it is part of the DOM, we can inspect any inline SVG in any browser DevTools. And because of that, we have the ability to scope things out and uncover any potential issues or opportunities to optimize the SVG.
+description: "Someone recently asked me how I approach debugging inline SVGs. Because it is part of the DOM, we can inspect any inline SVG in any browser DevTools. And because of that, we have the ability to scope things out and uncover any potential issues or opportunities to optimize the SVG."
 date: 2023-02-23
 canonicalUrl: https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/
 image: /assets/portfolio/blog-6fails-01.jpg
@@ -8,8 +8,7 @@ imageAlt: ""
 type: article
 category: 
 - svg
-- tutorial
-- english
+- community
 ---
 
 Someone recently asked me how I approach debugging inline SVGs. Because it is part of the DOM, we can inspect any inline SVG in any browser DevTools. And because of that, we have the ability to scope things out and uncover any potential issues or opportunities to optimize the SVG.

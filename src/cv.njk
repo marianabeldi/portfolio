@@ -2,10 +2,13 @@
 title: CV
 layout: 'base.njk'
 ---
-<header class="section container">
-  <h1>CV.2025.</h1>
-</header>
-<main class="pattern border-top">
+<main>
+  <div class="container intro">
+    <h1>CV.2025.</h1>
+    <p>Experience.</p>
+  </div>
+  <div class="pattern border-top">
+    
     <section class="container experience">
       <h2>Experience</h2>
       <ul class="timeline">
@@ -17,6 +20,7 @@ layout: 'base.njk'
       {% endfor %}
       </ul>
     </section>
+
     <section class="container experience">
       <h3>Education</h3>
       <ul class="timeline">
@@ -89,16 +93,18 @@ layout: 'base.njk'
       <div class="flex-container">
         <div class="flex-item">
           <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="200" height="8" fill="green" rx="1" /></svg>
-          <p>Spanish [ native ]</p>
+          <p>Spanish <span class="accent">[ native ]</span></p>
         </div>
         <div class="flex-item">
           <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="200" height="8" fill="green" rx="1" /></svg>
-          <p>Spanish [ native ]</p>
+          <p>Spanish <span class="accent">[ native ]</span></p>
         </div>
         <div class="flex-item">
           <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="200" height="8" fill="green" rx="1" /></svg>
-          <p>Spanish [ native ]</p>
+          <p>Spanish <span class="accent">[ native ]</span></p>
         </div>
       </div>
     </section>
+
+    </div>
   </main>

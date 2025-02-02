@@ -1,16 +1,14 @@
 ---
 title: "SVG interactions to improve your UX with UI"
-description: Using animations right can improve our website’s usability while abusing them can ruin the whole experience. Here's an example of effective animations.
+description: "Using animations right can improve our website’s usability while abusing them can ruin the whole experience. Here's an example of effective animations."
 subtitle: Contact form with animated feedback
 date: 2019-12-06
 image: /assets/portfolio/blog-contact-form.jpg
 type: article
 category: 
 - svg 
-- js
 - ui
-- tutorial
-- english
+- community
 ---
 
 Animations are the best way to bring life to our websites: they help us tell stories and communicate what is happening at that moment. They naturally catch our attention so it’s important to learn how and when to apply them. If we use animations in the right way, **we can improve our website’s usability**, if we abuse them we can ruin the user experience.

@@ -1,15 +1,15 @@
 ---
 title: "How I Made a Generator for SVG Loaders With Sass and SMIL Options"
-description: While learning Vue.js, I started building free web tools that involved the exploration of SVG, with the goal of learning something about both!
-subtitle: Free customizable loader generator
+description: "While learning Vue.js, I started building free web tools that involved the exploration of SVG, with the goal of learning something about both!
+subtitle: Free customizable loader generator"
 date: 2021-11-11
 canonicalUrl: https://css-tricks.com/how-i-made-a-generator-for-svg-loaders-with-sass-and-smil-options/
 image: /assets/portfolio/blog-loaders-01.gif
 type: article
 category: 
 - svg
-- tutorial
-- english
+- animation
+- open-source
 ---
 
 While learning [Vue.js](https://vuejs.org/), I started building free web tools that involved the exploration of SVG, with the goal of learning something about both! Let’s take a look at one of those tools: [a generator that makes SVG loaders](https://holasvg.com/loaders/) and lets you choose between SMIL or Sass animation, different styles, colors, shapes, and effects. It even lets you paste in a custom path or text, and then download the final SVG, copy the code, or open a demo over at CodePen.

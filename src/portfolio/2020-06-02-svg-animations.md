@@ -8,7 +8,7 @@ type: work
 category: 
 - illustration
 - SVG
-- CSS animation
+- open-source
 ---
 
 <ul class="tags">

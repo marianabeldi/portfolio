@@ -1,6 +1,6 @@
 ---
 title: "How to use and reuse everything in SVG… even animations"
-description: If you are familiar with SVG and CSS animations, here are few tips to keep in mind that will help you to build, optimize, and improve your code base.
+description: "If you are familiar with SVG and CSS animations, here are few tips to keep in mind that will help you to build, optimize, and improve your code base."
 subtitle: Build and optimize SVG and CSS animations.
 date: 2020-03-10
 canonicalUrl: https://css-tricks.com/use-and-reuse-everything-in-svg-even-animations/
@@ -8,9 +8,8 @@ image: /assets/portfolio/blog-use-and-reuse-01.png
 type: article
 category: 
 - svg 
-- css
-- tutorial
-- english
+- animation
+- community
 ---
 
 <div class="separator" aria-hidden="true">***</div>

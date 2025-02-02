@@ -2,13 +2,18 @@
   <a href="{{ post.url }}" class="card__link"><article>
       <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="card__image">
       <div class="card__content">
+        <span class="category">
+          {% for category in post.data.category %}
+            {{ category }}{% if not loop.last %} <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="currentColor" /></svg> {% endif %}
+          {% endfor %}
+        </span>
         <h3 class="card__title">
           {{ post.data.title }}
         </h3>
         <p class="card__body">{{ post.data.description | excerpt }}</p>
         <p class="card__meta">
           <span>{{ post.data.type }}</span>
-          <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="customColor" /> </svg>
+          <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="currentColor" /></svg>
           <span>{{ post.data.date | postDate }}</span>
         </p>
       </div>

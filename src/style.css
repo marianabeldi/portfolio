@@ -16,6 +16,7 @@
   --clr-darkbluergb: 29 29 70;
   --clr-blue: #47509b;
   --clr-red: #f36;
+  --clr-orange: rgb(255, 75, 51);
   --clr-green: #00b6c6;
   --clr-darkgreen: #00828f;
   --clr-lightgreen: #79e3e8;
@@ -141,7 +142,9 @@ h2 {
   color: var(--clr-lightblue);
   font-weight: var(--fw-400);
 }
-
+a {
+  color: var(--clr-darkgreen);
+}
 strong {
   font-weight: var(--fw-700);
 }
@@ -151,7 +154,16 @@ section,
   padding: min(10vh, 2em) 0;
 }
 
+.intro {
+  padding:5rem 0;
+}
+.intro p {
+  font-size: 1.8rem;
+}
 
+.accent {
+  color: var(--clr-orange);
+}
 
 /* //////////////////////
   Utility Classes
@@ -162,7 +174,7 @@ section,
    spacing */
 
 .flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1em);
+  margin-block-start: var(--flow-spacer, 1em);
 }
 
 .container {
@@ -225,24 +237,33 @@ section,
   Homepage
   /////////////////////// */
 
-.hero > div {
-  display: grid;
-  grid-auto-flow: row;
-  grid-auto-columns: 1fr;
-  align-items: center;
+.hero {
+  display: flex;
   gap: 3em;
 }
 
 .hero__image {
-  width: 100%;
-  /* max-height: max(15rem, 40vh); */
+  flex: 1 1 100%;
+  max-width: 500px;
+}
+
+.hero__image img {
+  border-radius: 24px;
+  max-height: max(95rem, 40vh);
   object-fit: cover;
+  width: 100%;
 }
 
 @media (min-width: 45em) {
-  .hero > div {
-    grid-auto-flow: column;
-  }
+
+}
+
+.hand-list {
+  padding: 1.2rem;
+}
+.hand-list li {
+  list-style-type: "👉 ";
+  margin-block: .5rem;
 }
 
 .featured-articles {
@@ -303,6 +324,11 @@ section,
   flex: 1 1 100%;
   font-size: 1rem;
   text-align: center;
+}
+
+.iframe-post {
+  display: block;
+  margin-block-start: 2rem;
 }
 
 /* //////////////////////
@@ -423,12 +449,18 @@ section,
   }
 
   .card__meta {
-    color: var(--clr-red);
-    margin-top: auto;
+    color: var(--clr-orange);
+    margin-block-start: auto;
+  }
+  .card__meta svg {
+    margin: 0 1rem;
   }
   
   .card__meta span {
     color: var(--clr-darkgreen);
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 0.1em;
   }
   .card__title {
     font-size: var(--fs-500);
@@ -517,7 +549,7 @@ section,
 .languages .flex-container {
   display: flex;
   gap: 2rem;
-  margin-inline-start: 2rem;
+  margin-block-start: 1rem;
 }
 .languages rect {
   fill: var(--clr-green)
@@ -527,12 +559,18 @@ section,
 }
 .skills .flex-container, .tools .flex-container {
   display: flex;
+  flex-wrap: wrap;
   gap: .4rem;
+  margin-block-start: 1rem;
 }
 .skill, .tool {
   border: 1px solid var(--clr-lightblue);
   border-radius: 50px;
-  padding: .5rem 1rem;
+  padding: .4rem 1rem;
+  align-items: center;
+}
+.tool {
+  border-radius: 10px;
 }
 
 

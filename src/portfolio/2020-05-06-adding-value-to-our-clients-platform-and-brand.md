@@ -1,18 +1,16 @@
 ---
 title: "Adding value to our client's platform and brand"
-description: While filling the requirements for a software development project, our nearshore teams discovered the chance to create and explore a visual universe to enlarge our client's identity.
+description: "While filling the requirements for a software development project, our nearshore teams discovered the chance to create and explore a visual universe to enlarge our client's identity."
 subtitle: How to make a brand thrive along with the site
 date: 2020-05-06
 image: /assets/portfolio/blog-adding-value-02.jpg
-type: case-study
+type: case study
 tags:
   - featured
 category: 
 - branding
-- svg
-- css
-- case-study
-- english
+- illustration
+- animation
 ---
 
 Not every brand guidelines include definitions for the usage of photography, illustrations, or image styles. Far from being a problem, this could mean a great opportunity for a redesign project. While filling the requirements for a software development project, we discovered the chance to create and explore a visual universe to enlarge our client's identity.

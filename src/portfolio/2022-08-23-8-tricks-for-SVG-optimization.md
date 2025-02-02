@@ -1,14 +1,13 @@
 ---
 title: "8 tricks for SVG optimization"
-description: Many online tools help us optimize SVG files before getting the code into our projects. But what if I tell you that the way we draw every element has an impact on the exported code? Understanding the code generated from graphic software will help us gain more control over it. Here are some tricks that can save us time when manipulating SVG code on our projects.
+description: "Many online tools help us optimize SVG files before getting the code into our projects. But what if I tell you that the way we draw every element has an impact on the exported code? Understanding the code generated from graphic software will help us gain more control over it. Here are some tricks that can save us time when manipulating SVG code on our projects."
 date: 2022-08-23
 canonicalUrl: https://uxdesign.cc/8-tricks-for-svg-optimization-c2c519c10c1e
 image: /assets/portfolio/blog-8ways-01.jpg
 type: article
 category: 
 - svg
-- optimization
-- english
+- community
 ---
 
 Many online tools help us optimize SVG files before getting the code into our projects. But what if I tell you that the way we draw every element has an impact on the exported code? Understanding the code generated from graphic software will help us gain more control over it. Here are some tricks that can save us time when manipulating SVG code on our projects.

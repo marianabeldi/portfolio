@@ -1,6 +1,6 @@
 ---
 title: "Mastering SVG's stroke-miterlimit Attribute"
-description: So, SVG has this `stroke-miterlimit` presentation attribute. You’ve probably seen it when exporting an SVG from a graphic editor program, or perhaps you find out you could remove it without noticing any change to the visual appearance.
+description: "So, SVG has this `stroke-miterlimit` presentation attribute. You’ve probably seen it when exporting an SVG from a graphic editor program, or perhaps you find out you could remove it without noticing any change to the visual appearance."
 subtitle: An overlooked SVG attribute
 date: 2022-06-11
 canonicalUrl: https://css-tricks.com/mastering-svgs-stroke-miterlimit-attribute/
@@ -8,8 +8,7 @@ image: /assets/portfolio/blog-miterlimit-01.png
 type: article
 category: 
 - svg
-- tutorial
-- english
+- community
 ---
 
 So, SVG has this `stroke-miterlimit` presentation attribute. You’ve probably seen it when exporting an SVG from a graphic editor program, or perhaps you find out you could remove it without noticing any change to the visual appearance.

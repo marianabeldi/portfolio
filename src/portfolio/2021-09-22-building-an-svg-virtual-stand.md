@@ -1,17 +1,16 @@
 ---
 title: "Building an SVG virtual stand"
-description: As sponsors of the event with Leniolabs, we used to have a stand where people could come by and say hi, play games with us, talk about technologies we love, and get some of our alien merch. It was the perfect excuse to get to know each other in this community.
+description: "As sponsors of the event with Leniolabs, we used to have a stand where people could come by and say hi, play games with us, talk about technologies we love, and get some of our alien merch. It was the perfect excuse to get to know each other in this community."
 subtitle: A responsive illustrated website with CSS Grid.
 date: 2021-09-22
 image: /assets/portfolio/blog-virtual-stand-01.jpg
-type: case-study
+type: case study
 tags:
   - featured
 category: 
 - branding
 - svg
-- grid
-- english
+- code
 ---
 
 [Nerdearla](https://nerdear.la/) is an annual conference with talks and workshops about technology and science here in Buenos Aires.

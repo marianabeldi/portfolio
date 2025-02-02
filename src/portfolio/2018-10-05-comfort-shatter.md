@@ -4,11 +4,10 @@ description: App prototype
 subtitle: App prototype
 date: 2018-10-05
 image: /assets/portfolio/blog-comfort-shatter.jpg
-type: case-study
+type: case study
 category: 
 - branding
-- case-study 
-- english
+- product
 ---
 
 ## UI/UX design for mobile app prototype

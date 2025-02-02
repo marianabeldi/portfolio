@@ -3,50 +3,67 @@ title: Home
 layout: 'base.njk'
 ---
 
-<header class="section container">
-  <h1>Mariana Beldi.</h1>
-  <h2>Designer. Illustrator. Developer.</h2>
-</header>
-<main class="pattern border-top">      
-<section class="hero">
-  <div class="container flow">
-      <div>
-        <img src="./assets/me.png" alt="Picture of myself" class="hero__image">
+<main>
+  <div class="container intro">
+    <h1>Mariana Beldi.</h1>
+    <p>Designer. Illustrator. Developer.</p>
+  </div>
+  <div class="pattern border-top">
+
+    <section class="container hero">
+      <div class="hero__image">
+        <img src="./assets/me.png" alt="Picture of myself" width="300px" heigh="300px">
       </div>
       <div class="hero__content flow">
-        <h1 class="section-title">Welcome to my blog!</h1>
-        <p>I’ve been working in design and tech since 2005. I hold a degree in Graphic Design from the Universidad de Buenos Aires and a postgraduate degree in Branding, complemented by studies in Arts and Advertising.</p>
-        <p>I'm a self-taught front-end developer with a focus on accessibility. In my free time, I create open-source SVG tools for developers and designers under the name HolaSVG. My writing on design and code has been featured in <a href="https://css-tricks.com/author/marianabeldi/">CSS-Tricks</a>, <a href="https://www.smashingmagazine.com/author/mariana-beldi/">Smashing Magazine</a>, <a href="https://uxdesign.cc/search?q=Mariana+beldi">UX Collective</a>, and <a href="https://medium.muz.li/search?q=mariana+beldi">Muzli</a>, among others.</p>
-        <p>Most of my work involves creating visual identities and developing digital products, from concept and strategy to fully realized projects</p>
+        <h1 class="section-title">Hi there!</h1>
+        <p>I'm a Designer and Developer specializing in Branding, with a passion for Illustration, Animation, and Accessibility, and over 20 years of experience in the tech industry.</p>
+        <ul role="list" class="hand-list">
+          <li>I hold a degree in Graphic Design and a postgraduate degree in Branding from the Universidad de Buenos Aires, complemented by studies in Arts and Advertising</li>
+          <li>I'm a self-taught front-end developer with a focus on accessibility</li>
+          <li>I contribute to the open-source ecosystem with tools for developers and designers under the name HolaSVG 
+          <li>My writing on design and code has been featured in
+          <a href="https://css-tricks.com/author/marianabeldi/">CSS-Tricks</a>,
+          <a href="https://www.smashingmagazine.com/author/mariana-beldi/">Smashing Magazine</a>,
+          <a href="https://uxdesign.cc/search?q=Mariana+beldi">UX Collective</a>, and
+          <a href="https://medium.muz.li/search?q=mariana+beldi">Muzli</a>, among others</li>
+        </ul>
+        <p>Most of my work revolves around creating visual identities and developing digital products, from concept and strategy to fully realized projects.</p>
       </div>
-  </div>
-</section>
+    </section>
 
-<section class="container more">
-    <details open="">
-      <summary><h3>more</h3></summary>
-      <ul>
-        <li>+ I was born on the same day as my brother (but two years apart) in Buenos Aires, Argentina. We have a music band together.</li>
-        <li>+ I have family in Italy, which gives me the perfect excuse to indulge in the best ice cream once a year.</li>
-        <li>+ I studied at one of the top universities in Latin America and occasionally participate as a guest reviewer, providing feedback to UX postgraduate students on their final projects.</li>
-        <li>+ One of the most challenging experiences I've had was traveling solo to India and Nepal for four months. During that time, I survived an earthquake, trekked in the mountains for 10 days, and completed a 10-day silent retreat.</li>
-        <li>+ Before merging my passion for art with my daily work, I used to sell drawings and participate in contests and art exhibitions.</li>
-        <li>+ I've been playing field hockey since I was 8 years old.</li>
-        <li>+ One of my favorite trips was in 2023, living in a van and driving roughly 5,000 km over two weeks.</li>
-        <li>+ My godson changed my life.</li>
-      </ul>
-    </details>
-  </section>
+    <section class="container more">
+      <details open="">
+        <summary>
+          <h3>more</h3>
+        </summary>
+        <ul>
+          <li>+ I was born on the same day as my brother (but two years apart) in Buenos Aires, Argentina. We have a music band
+            together.</li>
+          <li>+ I have family in Italy, which gives me the perfect excuse to indulge in the best ice cream once a year.</li>
+          <li>+ I studied at one of the top universities in Latin America and occasionally participate as a guest reviewer,
+            providing feedback to UX postgraduate students on their final projects.</li>
+          <li>+ One of the most challenging experiences I've had was traveling solo to India and Nepal for four months. During
+            that time, I survived an earthquake, trekked in the mountains for 10 days, and completed a 10-day silent retreat.</li>
+          <li>+ Before merging my passion for art with my daily work, I used to sell drawings and participate in contests and art
+            exhibitions.</li>
+          <li>+ I've been playing field hockey since I was 8 years old.</li>
+          <li>+ One of my favorite trips was in 2023, living in a van and driving roughly 5,000 km over two weeks.</li>
+          <li>+ My godson changed my life.</li>
+        </ul>
+      </details>
+    </section>
 
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <h2 class="section-title text-center ">Featured projects</h2>
-    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
-    <ul role="list" class="cards-wrapper">
-      {%- for post in collections.featured | reverse -%}
-        {% include "article-card.njk" %}
-      {%- endfor -%}
-    </ul>
+    <section id="featured-articles" class="featured-articles">
+      <div class="container flow">
+        <h2 class="section-title text-center ">Featured projects</h2>
+        <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
+        <ul role="list" class="cards-wrapper">
+          {%- for post in collections.featured | reverse -%}
+            {% include "article-card.njk" %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </section>
+
   </div>
-</section> 
-    </main>
+</main>

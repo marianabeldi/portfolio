@@ -3,15 +3,18 @@ title: Portfolio
 layout: 'base.njk'
 ---
 
-<header class="section container">
-  <h1>Portfolio.</h1>
-</header>
-<main class="pattern border-top">
-<div class="container">
+<main>
+  <div class="container intro">
+    <h1>Portfolio.</h1>
+    <p>Selected work.</p>
+  </div>
+  <div class="pattern border-top">
+
+    <div class="container">
       <ul role="list" class="filters">
         <li><a href="?filter=all" class="filter" data-filter="all">All</a></li>
         <li><a href="?filter=work" class="filter" data-filter="work">Work</a></li>
-        <li><a href="?filter=case-study" class="filter" data-filter="case-study">Case Studies</a></li>
+        <li><a href="?filter=case study" class="filter" data-filter="case study">Case Studies</a></li>
         <li><a href="?filter=article" class="filter" data-filter="article">Articles</a></li>
         <li><a href="?filter=workshop" class="filter" data-filter="workshop">Workshops</a></li>
       </ul>
@@ -22,6 +25,8 @@ layout: 'base.njk'
       {%- endfor -%}
     </ul>
     </div>
+
+  </div>
 </main>
 
 <script>

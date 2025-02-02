@@ -4,11 +4,11 @@ subtitle: Leniolabs brand & web redesign
 description: The internal process of creating and developing our own site.
 date: 2018-10-26
 image: /assets/portfolio/blog-leniolabs-redesign.png
-type: case-study
+type: case study
 category: 
 - branding
-- case-study
-- english
+- code
+- animation
 ---
 
 ## Proposal
