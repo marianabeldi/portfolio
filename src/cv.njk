@@ -15,38 +15,41 @@ layout: 'base.njk'
       {% for item in cv.items %}
         <li>
           <h3>{{ item.role }}</h3>
-          <p>{{ item.place }} • <span class="date">{{ item.date }}</span> <span class="years">[ {{ item.years }} ]</span></p>
+          <p>{{ item.place }} <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="currentColor" /></svg> <span class="date">{{ item.date }}</span> <span class="years">[ {{ item.years }} ]</span></p>
+          {% for paragraph in item.more %}
+            <p class="more-info">{{ paragraph }}</p>
+          {% endfor %}
         </li>
       {% endfor %}
       </ul>
     </section>
 
     <section class="container experience">
-      <h3>Education</h3>
+      <h2>Education</h2>
       <ul class="timeline">
         <li>
           <h3>Postgraduate degree on Branding</h3>
-          <p>Universidad de Buenos Aires • 2021</p>
+          <p>Universidad de Buenos Aires <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="currentColor" /></svg> 2021</p>
         </li>
         <li>
-          <h4>Graphic Designer</h4>
-          <p>Universidad de Buenos Aires • 2021</p>
+          <h3>Graphic Designer</h3>
+          <p>Universidad de Buenos Aires <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="currentColor" /></svg> 2021</p>
         </li>
         <li>
-          <h4>Bachelor of Visual Arts</h4>
-          <p>Universidad Nacional de las Artes • 2011 [unfinished]</p>
+          <h3>Bachelor of Visual Arts</h3>
+          <p>Universidad Nacional de las Artes <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="currentColor" /></svg> 2011 [unfinished]</p>
         </li>
         <li>
-          <h4>Advertising - Art Direction</h4>
-          <p>Escuela Superior de Creativos Publicitarios • 2005</p>
+          <h3>Advertising - Art Direction</h3>
+          <p>Escuela Superior de Creativos Publicitarios <svg width="4px" height="6px"> <circle r="2" cx="2" cy="2" fill="currentColor" /></svg> 2005</p>
         </li>
       </ul>
     </section>
 
     <section class="container skills">
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       <div class="flex-container">
-        <span class="skill">Design</span>
+        <span class="skill"><svg width="10px" height="10px"><use href="#solid" /></svg> Design</span>
         <span class="skill">UI</span>
         <span class="skill">UX</span>
         <span class="skill">Design System</span>
@@ -70,38 +73,49 @@ layout: 'base.njk'
     </section>
 
     <section class="container tools">
-      <h3>Tools</h3>
-      <div class="flex-container">
-        <span class="tool">Figma</span>
-        <span class="tool">Sketch</span>
-        <span class="tool">Adobe CC</span>
-        <span class="tool">Jira</span>
-        <span class="tool">Confluence</span>
-        <span class="tool">Visual Studio Code</span>
-        <span class="tool">Miro</span>
-        <span class="tool">GitHub</span>
-        <span class="tool">Bitbucket</span>
-        <span class="tool">GSAP</span>
-        <span class="tool">Lottie</span>
-        <span class="tool">Semrush</span>
-        <span class="tool">Hotjar</span>
+      <div class="flex-title">
+      <h2>Tools</h2>
+      <p class="legends">
+        <span><svg id="solid" width="12px" height="12px"><rect width="10" height="10" fill="#79e3e8" rx="1" /></svg> Solid</span>
+        <span><svg id="intermediate" width="12px" height="12px"><polygon points="6,0 12,12, 0,12z" fill="#fee7a3" /></svg> Intermediate</span>
+        <span><svg id="basic" width="12px" height="12px"><circle r="5" cx="6" cy="6" fill="#9a9ab9" /></svg> Basic</span>
+      </p>
       </div>
+      <div class="flex-container">
+        <span class="tool"><svg width="12px" height="12px"><use href="#solid" /></svg> Figma</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#intermediate" /></svg> Sketch</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#solid" /></svg> Illustrator</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#solid" /></svg> Photoshop</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#basic" /></svg> After Effects</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#intermediate" /></svg> Jira</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#intermediate" /></svg> Confluence</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#solid" /></svg> Visual Studio Code</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#intermediate" /></svg> Miro</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#solid" /></svg> GitHub</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#intermediate" /></svg> Bitbucket</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#intermediate" /></svg> GSAP</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#basic" /></svg> Lottie</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#basic" /></svg> Semrush</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#basic" /></svg> Hotjar</span>
+        <span class="tool"><svg width="12px" height="12px"><use href="#basic" /></svg> Notion</span>
+      </div>
+
     </section>
 
     <section class="container languages">
-      <h3>Languages</h3>
+      <h2>Languages</h2>
       <div class="flex-container">
         <div class="flex-item">
           <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="200" height="8" fill="green" rx="1" /></svg>
           <p>Spanish <span class="accent">[ native ]</span></p>
         </div>
         <div class="flex-item">
-          <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="200" height="8" fill="green" rx="1" /></svg>
-          <p>Spanish <span class="accent">[ native ]</span></p>
+          <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="160" height="8" fill="green" rx="1" /></svg>
+          <p>English <span class="accent">[ fluent ]</span></p>
         </div>
         <div class="flex-item">
-          <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="200" height="8" fill="green" rx="1" /></svg>
-          <p>Spanish <span class="accent">[ native ]</span></p>
+          <svg viewBox="0 0 200 8" width="200" heigh="4"><rect width="80" height="8" fill="green" rx="1" /></svg>
+          <p>Italian <span class="accent">[ basic ]</span></p>
         </div>
       </div>
     </section>

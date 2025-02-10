@@ -16,7 +16,7 @@
   --clr-darkbluergb: 29 29 70;
   --clr-blue: #47509b;
   --clr-red: #f36;
-  --clr-orange: rgb(255, 75, 51);
+  --clr-orange: #ff4b33;
   --clr-green: #00b6c6;
   --clr-darkgreen: #00828f;
   --clr-lightgreen: #79e3e8;
@@ -537,19 +537,38 @@ section,
 }
 .timeline li p span {
   font-size: 1rem;
-  font-weight: 500;
 }
 .timeline li p .date {
-  font-style: italic;
 }
 .timeline li p { 
   font-size: 1rem;
   margin: 0;
 }
+.years {
+  color: var(--clr-orange);
+  font-style: italic;
+}
+.flex-title {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+.legends {
+  align-items: center;
+  color: var(--clr-lightblue);
+  display: flex;
+  gap: 1.4rem;
+  font-size: 1rem;
+  margin-block-end: .2rem;
+}
 .languages .flex-container {
   display: flex;
   gap: 2rem;
   margin-block-start: 1rem;
+}
+.languages svg {
+  background-color: var(--clr-lightgrey);
+  border: .5px solid var(--clr-lightblue)
 }
 .languages rect {
   fill: var(--clr-green)
@@ -564,10 +583,12 @@ section,
   margin-block-start: 1rem;
 }
 .skill, .tool {
+  align-items: center;
   border: 1px solid var(--clr-lightblue);
   border-radius: 50px;
+  display: flex;
+  gap: .5rem;
   padding: .4rem 1rem;
-  align-items: center;
 }
 .tool {
   border-radius: 10px;
