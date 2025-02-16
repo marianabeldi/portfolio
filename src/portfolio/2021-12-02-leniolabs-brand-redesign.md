@@ -7,6 +7,7 @@ type: case study
 date: 2021-12-02
 tags:
   - featured
+  - portfolio
 imageAlt: screens of website redesign
 subtitle: Redefining our new identity
 image: /assets/portfolio/blog-lenio-01.jpg

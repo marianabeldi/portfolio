@@ -7,6 +7,7 @@ image: /assets/portfolio/blog-virtual-stand-01.jpg
 type: case study
 tags:
   - featured
+  - portfolio
 category: 
 - branding
 - svg

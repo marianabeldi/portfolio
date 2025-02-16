@@ -1,11 +1,11 @@
 ---
-title: Portfolio
+title: Articles & Talks
 layout: 'base.njk'
 ---
 
 <main>
   <div class="container intro">
-    <h1>Portfolio.</h1>
+    <h1>Articles & Talks.</h1>
     <p>Selected work.</p>
   </div>
   <div class="pattern border-top">
@@ -13,12 +13,12 @@ layout: 'base.njk'
     <div class="container">
       <ul role="list" class="filters">
         <li><a href="?filter=all" class="filter" data-filter="all">All</a></li>
-        <li><a href="?filter=work" class="filter" data-filter="work">Work</a></li>
-        <li><a href="?filter=case study" class="filter" data-filter="case study">Case Studies</a></li>
+        <li><a href="?filter=article" class="filter" data-filter="article">Articles</a></li>
+        <li><a href="?filter=talk" class="filter" data-filter="talk">Talks</a></li>
       </ul>
 
     <ul role="list" class="cards-wrapper">
-      {%- for post in collections.portfolio | reverse -%}
+      {%- for post in collections.post | reverse -%}
         {% include "article-card.njk" %}
       {%- endfor -%}
     </ul>
@@ -28,32 +28,32 @@ layout: 'base.njk'
 </main>
 
 <script>
-  // Función para aplicar el filtro según el parámetro en la URL
+  // Function to apply the filter based on the URL parameter
   function applyFilterFromUrl() {
     const urlParams = new URLSearchParams(window.location.search);
-    const filterValue = urlParams.get('filter') || 'all'; // Si no hay parámetro 'filter', usamos 'all' por defecto
+    const filterValue = urlParams.get('filter') || 'all'; // Default to 'all' if no 'filter' parameter
 
-    // Obtener todas las tarjetas
+    // Get all the cards
     const cards = document.querySelectorAll('.cards-wrapper .card');
 
-    // Mostrar o esconder las tarjetas según el filtro
+    // Show or hide the cards based on the filter
     cards.forEach(card => {
       const cardFilter = card.getAttribute('data-filter');
       if (filterValue === 'all') {
-        // Mostrar solo tarjetas etiquetadas como 'work' o 'case study'
-        if (cardFilter === 'work' || cardFilter === 'case study') {
-          card.style.display = 'block'; // Mostrar la tarjeta
+        // Show only cards tagged as 'article' or 'talk'
+        if (cardFilter === 'article' || cardFilter === 'talk') {
+          card.style.display = 'block'; // Show the card
         } else {
-          card.style.display = 'none'; // Ocultar la tarjeta
+          card.style.display = 'none'; // Hide the card
         }
       } else if (cardFilter === filterValue) {
-        card.style.display = 'block'; // Mostrar la tarjeta
+        card.style.display = 'block'; // Show the card
       } else {
-        card.style.display = 'none'; // Ocultar la tarjeta
+        card.style.display = 'none'; // Hide the card
       }
     });
 
-    // Actualizar la clase activa en los enlaces de filtro
+    // Update the active class on the filter links
     const filterLinks = document.querySelectorAll('.filters .filter');
     filterLinks.forEach(link => {
       if (link.getAttribute('data-filter') === filterValue) {
@@ -64,28 +64,28 @@ layout: 'base.njk'
     });
   }
 
-  // Función para actualizar la URL cuando se hace clic en un filtro
+  // Function to update the URL when a filter is clicked
   function filterCards(event) {
-    event.preventDefault(); // Prevenir el comportamiento por defecto del enlace
+    event.preventDefault(); // Prevent the default link behavior
     
-    // Obtener el filtro seleccionado
+    // Get the selected filter
     const filterValue = event.target.getAttribute('data-filter');
     
-    // Actualizar la URL con el parámetro de filtro
+    // Update the URL with the filter parameter
     history.pushState(null, '', `?filter=${filterValue}`);
     
-    // Aplicar el filtro
+    // Apply the filter
     applyFilterFromUrl();
   }
 
-  // Obtener todos los enlaces de filtros
+  // Get all the filter links
   const filterLinks = document.querySelectorAll('.filter');
 
-  // Agregar el event listener a cada enlace de filtro
+  // Add the event listener to each filter link
   filterLinks.forEach(link => {
     link.addEventListener('click', filterCards);
   });
 
-  // Aplicar el filtro al cargar la página
+  // Apply the filter when the page loads
   window.addEventListener('load', applyFilterFromUrl);
 </script>

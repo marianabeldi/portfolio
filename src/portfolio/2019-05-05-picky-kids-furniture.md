@@ -5,6 +5,8 @@ description: Picky Kids Furniture
 image: /assets/portfolio/th-PK-04.png
 date: 2019-05-05
 type: work
+tags:
+  - portfolio
 category: 
 - illustration
 - branding

@@ -5,6 +5,8 @@ description: Lenimatic
 image: /assets/portfolio/lenimatic-01.png
 date: 2020-09-02
 type: work
+tags:
+  - portfolio
 category: 
 - illustration
 - svg

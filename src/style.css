@@ -136,7 +136,7 @@ h1 {
   line-height: 1.1;
 }
 
-h1 { font-size: 6rem; }
+h1 { font-size: 5rem; }
 h1.article-title { font-size: 3rem; }
 h2 { 
   color: var(--clr-lightblue);
@@ -226,11 +226,14 @@ section,
   Footer
   /////////////////////// */
 
-.site-footer {
-  --logo-color: currentColor;
-  padding: 2em 0;
-  background-color: var(--clr-primary-500);
-  text-align: center;
+.social svg {
+  fill: var(--clr-darkblue);
+  margin: .6em 1em 0 0;
+  height: auto;
+  width: 2.8rem;
+}
+.social a {
+  text-decoration: none;
 }
 
 /* //////////////////////
@@ -408,6 +411,10 @@ section,
     border-radius: 8px;  
     display: flex;
     flex-direction: column;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  .card:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,10%);
   }
   .card.work {
     border: 2px solid blueviolet;

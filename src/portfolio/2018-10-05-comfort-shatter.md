@@ -5,6 +5,8 @@ subtitle: App prototype
 date: 2018-10-05
 image: /assets/portfolio/blog-comfort-shatter.jpg
 type: case study
+tags:
+  - portfolio
 category: 
 - branding
 - product

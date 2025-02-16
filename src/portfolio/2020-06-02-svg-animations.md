@@ -5,6 +5,8 @@ description: Animated Illustrations
 image: /assets/portfolio/th-svgs.jpg
 date: 2020-06-02
 type: work
+tags:
+  - portfolio
 category: 
 - illustration
 - SVG

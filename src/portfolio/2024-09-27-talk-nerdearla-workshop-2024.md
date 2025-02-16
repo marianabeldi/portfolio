@@ -5,11 +5,10 @@ description: "After 5 years of work (and 10 since the first proposal), modern br
 date: 2024-09-27
 image: /assets/portfolio/nerdearla-workshop-2024.png
 imageAlt: Cover of Nerdearla workshop 2024
-type: workshop
+type: talk
 category: 
 - css
 - animation
-- community
 ---
 
 After 5 years of work (and 10 since the first proposal), modern browsers have started implementing scroll animations with CSS. In this interactive workshop, we’ll explore how to use Scroll Progress Timeline and View Progress Timeline to create dynamic visual effects without JavaScript. These advanced techniques will help us enhance user experience with smooth, responsive animations using only CSS. The workshop includes practical examples, live coding, additional resources, and a Q&A session. It’s perfect for developers looking to innovate in their web projects with advanced techniques—without JavaScript.

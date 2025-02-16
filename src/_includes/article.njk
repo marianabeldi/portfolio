@@ -5,12 +5,13 @@ layout: 'base.njk'
 <main>
   <div class="container intro">
     <h1>{{ title }}</h1>
-    <p>{{ date | postDate }}</p>
+    <p>{{ subtitle }}</p>
   </div>
   <div class="pattern border-top">
     <figure class="main-article__figure">
       <img src="{{ image }}" alt="{{ imageAlt }}">
     </figure>
+    <p>{{ date | postDate }}</p>
     <article class="main-article">
       <div class="container container--narrow flow">
         {{ content | safe }}

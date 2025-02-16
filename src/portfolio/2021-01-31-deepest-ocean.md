@@ -11,15 +11,8 @@ category:
 - open-source
 ---
 
-<ul class="tags">
-    <li>SVG</li>
-    <li>art</li>
-    <li>ui</li>
-</ul>
 <ul class="gallery masonry">
     <div class="content">
-        <p class="content-date">January, 2021</p>
-        <h1>Deepest Ocean</h1>
         <p>We participated in this 2021's <a target="_blank" rel="noreferrer" href="https://globalgamejam.org/2021/games/deepest-ocean-6">Global Game Jam online</a> and developed a videogame in 48hs along with <a target="_blank" rel="noreferrer" href="https://twitter.com/jcfortunatti">Juan Cruz Fortunatti</a> (Developer), <a target="_blank" rel="noreferrer" href="https://twitter.com/luucho_s">Luciano Sejudo</a>  (Developer), and <a target="_blank" rel="noreferrer" href="https://twitter.com/sikolio">Alfonso Concha</a> (Game Designer).</p>
         <p>Deepest Ocean takes you on a journey to discover the wonders that the ocean hides. In this game, you'll be assigned 3 random creatures to find in the ocean. Choose a room to play with your friends (max. 5). Choose what part of the ship you want to drive and start the adventure!</p>
         <h2>Play it online:</h2>
@@ -27,20 +20,21 @@ category:
             <li><a target="_blank" rel="noreferrer" href="http://deepestocean.tk/" class="heart">Deepest Ocean videogame</a></li>
         </ul>
     </div>
-    <li><img src="/work/do-10.jpg" alt=""></li>
-    <li><img src="/work/do-03.jpg" alt=""></li>
-    <li><video controls><source src="/work/do-12.mp4" type="video/mp4"></video></li>
-    <li><video controls><source src="/work/do-13.mp4" type="video/mp4"></video></li>
-    <li><video controls><source src="/work/do-14.mp4" type="video/mp4"></video></li>    
-    <li><img src="/work/do-11.jpg" alt=""></li>
-    <li><video controls><source src="/work/do-05.mp4" type="video/mp4"><p>Your browser doesn't support HTML5 video. Here is a <a href="https://www.youtube.com/watch?v=tga0DzSCKt0&ab_channel=MarianaBeldi">link to the video</a> instead.</p></video></li>
-    <li><img src="/work/do-02.jpg" alt=""></li>
-    <li><img src="/work/do-01.jpg" alt=""></li>
-    <li><img src="/work/do-06.jpg" alt=""></li>
-    <li><img src="/work/do-09.jpg" alt=""></li>
-    <li><img src="/work/do-07.png" alt=""></li>
+    <li><img src="/assets/portfolio/do-10.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/do-03.jpg" alt=""></li>
+    <li><video controls><source src="/assets/portfolio/do-12.mp4" type="video/mp4"></video></li>
+    <li><video controls><source src="/assets/portfolio/do-13.mp4" type="video/mp4"></video></li>
+    <li><video controls><source src="/assets/portfolio/do-14.mp4" type="video/mp4"></video></li>    
+    <li><img src="/assets/portfolio/do-11.jpg" alt=""></li>
+    <li><video controls><source src="/assets/portfolio/do-05.mp4" type="video/mp4"><p>Your browser doesn't support HTML5 video. Here is a <a href="https://www.youtube.com/watch?v=tga0DzSCKt0&ab_channel=MarianaBeldi">link to the video</a> instead.</p></video></li>
+    <li><img src="/assets/portfolio/do-02.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/do-01.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/do-06.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/do-09.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/do-07.png" alt=""></li>
 </ul>
 
+<iframe class="iframe-post" width="100%" height="400" src="https://www.youtube.com/embed/Nnxix-JGn0A?si=DouWeAHsR3e0yEXf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!-- 
 
 ---

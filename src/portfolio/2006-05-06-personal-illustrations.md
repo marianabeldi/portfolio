@@ -5,6 +5,8 @@ description: Personal Illustrations
 image: /assets/portfolio/ilus-01.jpg
 date: 2000-05-06
 type: work
+tags:
+  - portfolio
 category:
   - art
   - illustration

@@ -5,6 +5,8 @@ description: Leni for Leniolabs_
 image: /assets/portfolio/leni-19.jpg
 date: 2019-08-20
 type: work
+tags:
+  - portfolio
 category: 
 - illustration
 - branding

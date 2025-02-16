@@ -7,6 +7,7 @@ image: /assets/portfolio/blog-adding-value-02.jpg
 type: case study
 tags:
   - featured
+  - portfolio
 category: 
 - branding
 - illustration

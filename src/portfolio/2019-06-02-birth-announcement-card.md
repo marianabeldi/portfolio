@@ -6,6 +6,8 @@ author: Mariana Beldi
 image: /assets/portfolio/lenna-01.jpg
 date: 2019-06-02
 type: work
+tags:
+  - portfolio
 category: 
 - illustration
 - print design

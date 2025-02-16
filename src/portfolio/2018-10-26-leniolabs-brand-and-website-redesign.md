@@ -5,6 +5,8 @@ description: The internal process of creating and developing our own site.
 date: 2018-10-26
 image: /assets/portfolio/blog-leniolabs-redesign.png
 type: case study
+tags:
+  - portfolio
 category: 
 - branding
 - code
