@@ -41,7 +41,7 @@ category:
 title: Spiritualized Calendar
 subtitle: Music Calendar
 description: Spiritualized Calendar
-image: /work/th-calendar.jpg
+image: /assets/portfolio/th-calendar.jpg
 date: 02 Dec 2015
 category: 
 - illustration
@@ -64,18 +64,18 @@ category:
             <li><a target="_blank" rel="noreferrer" href="https://holabelda.com/portfoliofolio/2020/04/03/spiritualized-calendar-for-print/" class="heart">Free download</a></li>
         </ul>
     </div>
-    <li><img src="/work/th-calendar.jpg"></li>
-    <li><img src="/work/calendar-02.jpg"></li>
-    <li><img src="/work/calendar-03.jpg"></li>
-    <li><img src="/work/calendar-04.jpg"></li>
-    <li><img src="/work/calendar-05.jpg"></li>
-    <li><img src="/work/calendar-06.jpg"></li>
-    <li><img src="/work/calendar-07.jpg"></li>
-    <li><img src="/work/calendar-08.jpg"></li>
-    <li><img src="/work/calendar-09.jpg"></li>
-    <li><img src="/work/calendar-10.jpg"></li>
-    <li><img src="/work/calendar-11.jpg"></li>
-    <li><img src="/work/calendar-12.jpg"></li>
-    <li><img src="/work/calendar-13.jpg"></li>
-    <li><img src="/work/calendar-14.jpg"></li>
+    <li><img src="/assets/portfolio/th-calendar.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-02.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-03.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-04.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-05.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-06.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-07.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-08.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-09.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-10.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-11.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-12.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-13.jpg"></li>
+    <li><img src="/assets/portfolio/calendar-14.jpg"></li>
 </ul> -->

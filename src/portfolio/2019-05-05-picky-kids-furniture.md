@@ -36,14 +36,14 @@ category:
             <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/pickykids/" class="heart">Facebook</a></li>
         </ul>
     </div>
-    <li><img src="/work/PK-00.jpg" alt=""></li>
-    <li><img src="/work/Pk-01.jpg" alt=""></li>
-    <li><img src="/work/Pk-02.png" alt=""></li>
-    <li><img src="/work/PK-03.png" alt=""></li>
-    <li><img src="/work/PK-06.png" alt=""></li>
-    <li><img src="/work/PK-04.jpg" alt=""></li>
-    <li><img src="/work/PK-05.png" alt=""></li>
-    <li><img src="/work/PK-07.png" alt=""></li>
-    <li><img src="/work/PK-08.png" alt=""></li>
-    <li><img src="/work/PK-09.png" alt=""></li>
+    <li><img src="/assets/portfolio/PK-00.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/Pk-01.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/Pk-02.png" alt=""></li>
+    <li><img src="/assets/portfolio/PK-03.png" alt=""></li>
+    <li><img src="/assets/portfolio/PK-06.png" alt=""></li>
+    <li><img src="/assets/portfolio/PK-04.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/PK-05.png" alt=""></li>
+    <li><img src="/assets/portfolio/PK-07.png" alt=""></li>
+    <li><img src="/assets/portfolio/PK-08.png" alt=""></li>
+    <li><img src="/assets/portfolio/PK-09.png" alt=""></li>
 </ul>

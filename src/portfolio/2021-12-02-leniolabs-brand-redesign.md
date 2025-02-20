@@ -28,7 +28,7 @@ Describing ourselves isn't an easy task. Identity is a constant evolution and no
 Last year (2020), [we built a site](https://www.holasvg.com/posts/building-an-SVG-virtual-stand) to attend as sponsors of an event that was going to be virtual for the first time. **We wanted to keep close to people while encouraging them to stay home.** As a remote company, we imagined our own house, where every room was an invitation for everyone to spend some time with us.
 
 <figure>
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-02.jpg" alt="">
+    <img src="/assets/portfolio/blog-lenio-02.jpg" alt="">
 	<figcaption>Event website: Building an SVG virtual stand. Read the article <a href="https://www.holasvg.com/posts/building-an-SVG-virtual-stand">here</a></figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ Then it hit us: **We were born remote, our strong culture has been a result of t
 So from a solid base of illustrations and animations, **we decided to redesign and rethink our main website.** We chose to scale the concept of the house to an entire city, where we are part of a wider environment where we all coexist in constant close communication with our surroundings, our colleagues, and our clients.
 
 <figure>
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-03.gif" alt="">
+    <img src="/assets/portfolio/blog-lenio-03.gif" alt="">
 	<figcaption>New site redesign at <a href="https://www.leniolabs.com/">Leniolabs</a></figcaption>
 </figure>
 
@@ -47,14 +47,14 @@ So from a solid base of illustrations and animations, **we decided to redesign a
 Starting from the city view at the homepage where our house is part of a neighborhood was a way for us to express that **we focus on nearshoring,** increasing the teams of our clients where we merge with their daily routine and methodologies.
 
 <figure>
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-04.gif" alt="">
+    <img src="/assets/portfolio/blog-lenio-04.gif" alt="">
 </figure>
 
 The culture section is our house from in and out, here we write about who we are, what we like, where we live, what we do in our free time, and how we like to share knowledge with the community.
 Then **each section of the site is represented with a room of our house**, leaving our main essential topics on the first level of the navigation.
 
 <figure>
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-05.gif" alt="">
+    <img src="/assets/portfolio/blog-lenio-05.gif" alt="">
 </figure>
 
 ## New Focus, new content
@@ -66,13 +66,13 @@ We spend some time writing content to explain every area of our expertise. Each 
 We believe that sharing is the best way of growing; that's why **we support many talented people that are developing the open-source frameworks and tools we use every day** at Leniolabs; we owe them their time and knowledge and want them to keep pushing a better web for all. There is a complete section dedicated to the open-source projects we started supporting this year.
 
 <figure>
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-os2.jpg" alt="">
+    <img src="/assets/portfolio/blog-lenio-os2.jpg" alt="">
 	<figcaption><a href="https://www.leniolabs.com/open-source/" target="_blank">Open-source section</a> with organizations and mantainers we support.</figcaption>
 </figure>
 
 <figure class="grid-gifs-two">
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-06.png" alt="">
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-07.png" alt="">
+    <img src="/assets/portfolio/blog-lenio-06.png" alt="">
+    <img src="/assets/portfolio/blog-lenio-07.png" alt="">
 	<figcaption>Open Collective and GitHub sponsors</figcaption>
 </figure>
 
@@ -86,27 +86,27 @@ We have [Layoutit!](https://grid.layoutit.com/) a free CSS Grid generator, [Data
 
 In our culture section, we have many slack emojis, WhatsApp stickers, Instagram filters, and gifs of our alien mascot Leni, that you can download for free from our site or play with our [Lenimatic](https://lenimatic.com/) generator to create your own.
 
-<img src="/portfolio/portfolio/portfolio/portfolio-lenio-08.gif" alt="">
-<img src="/portfolio/portfolio/portfolio/portfolio-lenio-09.png" alt="">
+<img src="/assets/portfolio/blog-lenio-08.gif" alt="">
+<img src="/assets/portfolio/blog-lenio-09.png" alt="">
 
 ### We love easter eggs
 
 You can come and visit the site at night, but also next winter, and maybe try another visit in January if you can :) there are tons of easter eggs hidden depending on the month and hour you visit us.
 
-<img src="/portfolio/portfolio/portfolio/portfolio-lenio-10.gif" alt="">
-<img src="/portfolio/portfolio/portfolio/portfolio-lenio-11.gif" alt="">
+<img src="/assets/portfolio/blog-lenio-10.gif" alt="">
+<img src="/assets/portfolio/blog-lenio-11.gif" alt="">
 
 ## Next Steps
 
 As part of this new identity, we started redesigning all our internal document templates, our social media communication, and a new onboarding kit to deliver to our old and new employees around the globe. We are currently exploring new places where our brand continues to mutate and expand outside the screens and the digital environment.
 
 <figure>
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-12.gif" alt="">
+    <img src="/assets/portfolio/blog-lenio-12.gif" alt="">
     <figcaption>Onboarding kit. Tote bag, mug, notebook, pen, t-shirt, postcards, tons of stickers.</figcaption>
 </figure>
 
 <figure>
-    <img src="/portfolio/portfolio/portfolio/portfolio-lenio-13.png" alt="">
+    <img src="/assets/portfolio/blog-lenio-13.png" alt="">
     <figcaption>Social Media communication.</figcaption>
 </figure>
 

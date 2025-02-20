@@ -19,7 +19,7 @@ category:
 As sponsors of the event with [Leniolabs](https://www.leniolabs.com/), we used to have a stand where people could come by and say hi, play games with us, talk about technologies we love, and get some of our [alien merch](https://www.behance.net/gallery/90294769/Leniolabs_-merchandising). **It was the perfect excuse to get to know each other in this community**.
 
 <figure>
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-02.jpg" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-02.jpg" alt="">
 	<figcaption>Leniolabs’ merchandising in events</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Then the pandemic changed everything. And the event as we knew it was not possib
 **We first attempted to create an interactive city** to chat in bars or share articles in the library, talk in the theatres, or play games in the park. But all those places seemed far away from our reality at that moment.
 
 <figure>
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-03.jpg" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-03.jpg" alt="">
 	<figcaption>First idea. Leniolabs city.</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Then the popular *\#stayathome* hashtag hit us: **why not illustrate our own hou
 **Each room would refer to one area of the company**; we had our videos of workshops and talks in the garage, our blog posts in the home library, the live chat in the living room, the games in the garden, the trivia challenges in the loft, our lab in the basement, the Bootcamp we were cooking at the kitchen, and the job section in the office room. And everyone was invited; we wanted to share what happens inside Leniolabs, our internal workshops, and articles we write to share our knowledge.
 
 <figure>
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-04.jpg" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-04.jpg" alt="">
 	<figcaption>Leniolabs’ house website design.</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Then the popular *\#stayathome* hashtag hit us: **why not illustrate our own hou
 There was a challenge to make this website mobile-friendly as the whole site was a big illustration. After playing around with different approaches, we decided to use [Layoutit](https://grid.layoutit.com/) to build a CSS Grid. We exported every room as a single SVG and made every SVG a component. Then **we created a grid where every grid item was one of these components**. We changed the layout and the position of the grid areas depending on the screen size, going from 4 column layout on large screens to a single column on mobile.
 
 <figure>
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-05.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-05.gif" alt="">
 	<figcaption>CSS grid and SVG components.</figcaption>
 </figure>
 
@@ -60,12 +60,12 @@ We chose [Nuxt](https://nuxtjs.org/) as we needed a site that would last 5 days 
 We used some small animations on hover to make the house a little bit more alive—all with preferred reduce-motion for accessibility.
 
 <figure class="grid-gifs">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-06.gif" alt="">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-07.gif" alt="">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-08.gif" alt="">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-09.gif" alt="">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-10.gif" alt="">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-11.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-06.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-07.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-08.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-09.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-10.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-11.gif" alt="">
   <figcaption>Micro animations</figcaption>
 </figure>
 
@@ -74,11 +74,11 @@ We used some small animations on hover to make the house a little bit more alive
 **After a certain hour, the house switches off**, some of the lights are out, and others are on. The sleeping cat is now catching a spider; Leni (our alien mascot) falls asleep outside the house. **We love the idea that the more you visit the site, the more details you’ll find hidden**. Every SVG is a reusable component that appears on each internal page and changes as the dark mode turns on.
 
 <figure>
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-12.gif" alt="">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-13.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-12.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-13.gif" alt="">
   <div class="grid-gifs-two">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-14.gif" alt="">
-    <img src="/portfolio/portfoliofportfolii/portfolio-virtual-stand-15.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-14.gif" alt="">
+    <img src="/assets/portfolio/blog-virtual-stand-15.gif" alt="">
     <figcaption>Day mode — Night mode.</figcaption>
   </div>
 </figure>

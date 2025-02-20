@@ -133,7 +133,7 @@ If we declare any value in the attributes we defined in the  `<defs>`  then it w
 With this code ready, we’ll be able to scale the graphic to something like this much more easily:
 
 <figure>
-    <img src="/portfoliofolio/port/portfolio/portfolio/portfolio/portfolio-going-beyond-02.png" alt=""/>
+    <img src="/assets/portfolio/portfolio-going-beyond-02.png" alt=""/>
     <figcaption>SVG Org Chart.</figcaption>
 </figure>
 

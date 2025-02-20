@@ -28,10 +28,10 @@ category:
             <li><a target="_blank" rel="noreferrer" href="https://www.behance.net/gallery/89733155/Birth-announcement-card" class="heart">Behance</a></li>
         </ul>
     </div>
-    <li><img src="/work/lenna-02.jpg" alt=""></li>
-    <li><img src="/work/lenna-01.jpg" alt=""></li>
-    <li><img src="/work/th-lenna.jpg" alt=""></li>
-    <li><img src="/work/lenna-04.jpg" alt=""></li>
-    <li><img src="/work/lenna-03.jpg" alt=""></li>
-    <li><img src="/work/lenna-06.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/lenna-02.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/lenna-01.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/th-lenna.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/lenna-04.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/lenna-03.jpg" alt=""></li>
+    <li><img src="/assets/portfolio/lenna-06.jpg" alt=""></li>
 </ul>

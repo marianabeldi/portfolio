@@ -46,7 +46,7 @@ Our proposal was to build a graphic universe with illustrations to show all thes
 We started by showing the client some references for illustrations with a small description so they could decide which style represented them the most. Some of these images included different perspectives, dimensions, depths, characters, stroke styles, gradients, and solid combinations, rounded and sharp edges, between others. From the beginning, we discarded any complex texture, effects, or super realistic illustrations. We knew that performance will pay if we keep it simple from the beginning.
 
 <figure>
-    <img src="/portfolio/portfolio-adding-value-03.png" alt="">
+    <img src="/assets/portfolio/blog-adding-value-03.png" alt="">
 	<figcaption>Illustration references</figcaption>
 </figure>
 
@@ -55,8 +55,8 @@ We started by showing the client some references for illustrations with a small 
 The client picked two options, so we delivered some small sketches to start testing the styles and at the same time, talking about the ideas to represent. The Login is the first page the user will see, and also the one with more space available for creation. Here, we wanted to show a city where all our client's services coexist, so we sent some drafts of the city with both styles:
 
 <figure class="flex-imgs two">
-    <img src="/portfolio/port/port/port/port/port/port/port/port/port/portfolio/port/port/portfolio/portfoliofolio/portfolio-adding-value-04.jpg" width="400" alt="">
-    <img src="/portfolio/portfolio-adding-value-05.jpg" width="400" alt="">
+    <img src="/assets/portfolio/blog-adding-value-04.jpg" width="400" alt="">
+    <img src="/assets/portfolio/blog-adding-value-05.jpg" width="400" alt="">
 	<figcaption>First drafts for styles</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ As we mentioned before: when the users reach the login, they are aware of what t
 After they picked one final style and the idea of the city was approved, we started discussing which elements to show and how to represent them.
 
 <figure>
-    <img src="/portfolio/portfolio-adding-value-06.jpg" alt="">
+    <img src="/assets/portfolio/blog-adding-value-06.jpg" alt="">
 	<figcaption>Drafts of illustrations and Login page</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ As soon as the illustration was approved, we exported the file from Illustrator 
 There are a few ways to export the SVG, the easiest one is to copy the vectors from Illustrator and paste them in a text editor. As simple as that:
 
 <figure>
-    <img src="/portfolio/portfolio-adding-value-07.gif" alt="">
+    <img src="/assets/portfolio/blog-adding-value-07.gif" alt="">
 	<figcaption>Copy/paste from Illustrator to text editor</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ Now we have our code clean and we can start adding classes to the elements we wa
 This was the result for the Login page, the SVG illustration weights only <strong>42k after optimization:</strong>
 
 <figure class="full-w">
-    <img src="/portfolio/portfolio-adding-value-08.gif" alt="">
+    <img src="/assets/portfolio/blog-adding-value-08.gif" alt="">
 	<figcaption>Login with micro animations.</figcaption>
 </figure>
 
@@ -106,17 +106,17 @@ This was the result for the Login page, the SVG illustration weights only <stron
 After the main animation was ready, smaller instances were easier to build. Once users get into the site, different scenarios of the city appear as they navigate it. Other instances included a loading animation, an error message, and a 404 error page:
 
 <figure>
-    <img src="/portfolio/portfolio-adding-value-09.gif" alt="">
+    <img src="/assets/portfolio/blog-adding-value-09.gif" alt="">
 	<figcaption>Loading</figcaption>
 </figure>
 
 <figure>
-    <img src="/portfolio/portfolio-adding-value-10.png" alt="">
+    <img src="/assets/portfolio/blog-adding-value-10.png" alt="">
 	<figcaption>Error message</figcaption>
 </figure>
 
 <figure>
-    <img src="/portfolio/portfolio-adding-value-11.gif" alt="">
+    <img src="/assets/portfolio/blog-adding-value-11.gif" alt="">
 	<figcaption>404 error page</figcaption>
 </figure>
 

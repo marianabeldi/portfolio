@@ -1,7 +1,7 @@
 ---
 title: "Comfort Shatter App prototype"
+subtitle: "UI/UX design for mobile app prototype"
 description: App prototype
-subtitle: App prototype
 date: 2018-10-05
 image: /assets/portfolio/blog-comfort-shatter.jpg
 type: case study
@@ -11,8 +11,6 @@ category:
 - branding
 - product
 ---
-
-## UI/UX design for mobile app prototype
 
 > “Most people live in a restricted circle of potential.”  
 > -William James
@@ -27,7 +25,7 @@ Comfort Shatter is an app that brings users challenges to break out of their com
 Starting with some sketches. get the ideas out of the head and down on paper.
 
 <figure>
-    <img src="/portfolio/portfolio-comfort-shatter-02.jpg" alt="Picture of a book with handmade sketches"/>
+    <img src="/assets/portfolio/blog-comfort-shatter-02.jpg" alt="Picture of a book with handmade sketches"/>
     <figcaption>First draft with user flow.</figcaption>
 </figure>
 
@@ -35,7 +33,7 @@ Starting with some sketches. get the ideas out of the head and down on paper.
 Looking for some vibrant colors for a modern palette, friendly monsters to represent the challenges, rounded shapes, and brush fonts.
 
 <figure>
-    <img src="/portfolio/portfolio-comfort-shatter-03.jpg" alt="Vibrant colors, friendly monsters."/>
+    <img src="/assets/portfolio/blog-comfort-shatter-03.jpg" alt="Vibrant colors, friendly monsters."/>
     <figcaption>Mood board of inspiration</figcaption>
 </figure>
 
@@ -43,7 +41,7 @@ Looking for some vibrant colors for a modern palette, friendly monsters to repre
 Time to work on some high fidelity mockups. Looking for color contrast, adjusting character design and setting the rules for future screenshots.
 
 <figure>
-    <img src="/portfolio/portfolio-comfort-shatter-01.jpg" alt="Screenshots of the mobile app"/>
+    <img src="/assets/portfolio/blog-comfort-shatter-01.jpg" alt="Screenshots of the mobile app"/>
     <figcaption>High fidelity mockups.</figcaption>
 </figure>
 
@@ -52,11 +50,11 @@ Time to work on some high fidelity mockups. Looking for color contrast, adjustin
 Montserrat as the main font for legibility across the site and VTS Supermarket sale for outstanding titles. Using round shapes and circles for a friendly look and feel.
 
 <figure>
-    <img src="/portfolio/portfolio-comfort-shatter-04.jpg" alt=""/>
+    <img src="/assets/portfolio/blog-comfort-shatter-04.jpg" alt=""/>
     <figcaption>Fonts and color palette.</figcaption>
 </figure>
 <figure>
-    <img src="/portfolio/portfolio-comfort-shatter-05.jpg" alt=""/>
+    <img src="/assets/portfolio/blog-comfort-shatter-05.jpg" alt=""/>
     <figcaption>Design elements and guidelines.</figcaption>
 </figure>
 
@@ -65,7 +63,7 @@ Montserrat as the main font for legibility across the site and VTS Supermarket s
 Sketching the user flow before building the final prototype.
 
 <figure>
-    <img src="/portfolio/portfolio-comfort-shatter-06.jpg" alt="screenshot of mobile app with arrows showing the user flow"/>
+    <img src="/assets/portfolio/blog-comfort-shatter-06.jpg" alt="screenshot of mobile app with arrows showing the user flow"/>
     <figcaption>User flow sketch.</figcaption>
 </figure>
 
